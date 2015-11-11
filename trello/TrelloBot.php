@@ -14,7 +14,7 @@ define('ONE_MONTH', 2592000); // 60 * 60 * 24 * 30 = one month in seconds
 
 use Trello\Client;
 
-class TrelloBot extends JobsController {
+class TrelloBot {
 
 	private $client, $board_ids, $list_ids;
 	private $cards_affected;
